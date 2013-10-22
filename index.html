@@ -1,0 +1,730 @@
+<!doctype html>
+<html>
+<head>
+
+<title>mcdlr &#183; me cago de la risa</title>
+
+<meta charset="utf-8">
+<meta name="description" content="This place is a compendium of XHTML/CSS/jQuery experiments and tributes of geek nature">
+<meta name="author" content="DrummerHead">
+
+<link rel="stylesheet" href="css/stijl.css?7">
+<link rel="profile" href="http://microformats.org/profile/hcard">
+<link rel="profile" href="http://microformats.org/profile/hatom">
+<link rel="alternate" href="http://microformatique.com/optimus/?uri=http://mcdlr.com/&format=rss" type="application/rss+xml" title="RSS 2.0">
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/gedrag.js"></script>
+
+<!--
+ ____                                           _   _                _
+|  _ \ _ __ _   _ _ __ ___  _ __ ___   ___ _ __| | | | ___  __ _  __| |
+| | | | '__| | | | '_ ` _ \| '_ ` _ \ / _ \ '__| |_| |/ _ \/ _` |/ _` |
+| |_| | |  | |_| | | | | | | | | | | |  __/ |  |  _  |  __/ (_| | (_| |
+|____/|_|   \__,_|_| |_| |_|_| |_| |_|\___|_|  |_| |_|\___|\__,_|\__,_|
+            Made all this stuff, done with a lotta love :D
+-->
+</head>
+
+<body id="home">
+<div id="wrapper">
+
+
+
+
+<header role="banner">
+  <a href="http://twitter.com/DrummerHead" rel="author external" class="twitLink" title="DrummerHead&#8217;s Twitter">DrummerHead Twitter account</a>
+  <nav role="navigation">
+    <ol>
+      <li id="el-que">
+        <a href="#">el que?</a>
+      </li>
+      <li id="como">
+        <a href="#">como?</a>
+      </li>
+      <li id="para-que">
+        <a href="#">para que?</a>
+      </li>
+      <li id="quien">
+        <a href="#">quien?</a>
+      </li>
+    </ol>
+  </nav>
+  <strong>
+    <a href="#">mcdlr</a>
+  </strong>
+</header>
+
+<section id="info">
+  <ul>
+    <li>
+      <div>
+        <h1>mcdlr. me cago de la risa</h1>
+      </div>
+    </li>
+    <li>
+      <div>
+        <h2>Say what?</h2>
+        <p>mcdlr is an abbreviation of &#8220;me cago de la risa&#8221;, which in spanish means &#8220;I sh*t myself in laughter&#8221;. mcdlr is the spanish counterpart of LOL, ROFL, etc.</p>
+        <p>mcdlr must be always written in lower case. I think it's more stylish that way, better flow.</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <h2>What?</h2>
+        <p>Why is a site whose name and menu&#8217;s are in spanish written in English? I don&#8217;t know. I guess the experiments I make may be more interesting to an English speaking audience... I really don&#8217;t know.</p>
+        <p>This is the result of starting a site with no clear purpose and no clear audience. How did you get here and why you&#8217;re reading this, is a mystery.</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <h2>What for?</h2>
+        <p>I originally bought the domain just because I created the term &#8220;mcdlr&#8221; and was surprised that nobody had bought it, so I did.</p>
+        <p>Now the site serves the purpose of being a backyard of HTML/CSS/JS experiments that I come up with. This is what you see below this area, yeah, scroll down, there :)</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <h2>Who?</h2>
+        <p>I am DrummerHead, Application Designer &#38; Front End Dev. You can follow me on Twitter <a href="http://twitter.com/DrummerHead" title="DrummerHead&#8217;s Twitter account">@DrummerHead</a></p>
+        <p>If you want some custom made internetz for you, you can send me a mail at <a class='email' href="mailto:drummerhead&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">drummerhead&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a> and also <a href="http://nicolas-barrera.com/" rel="author external">check my CV</a>.</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section role="main" class="hfeed">
+<div class="vessel">
+<!--
+  <li id="">
+    <a href="/">
+      <img src="img/thumbs/" alt="Thumbnail for " />
+    </a>
+    <div>
+      <h3><a href="/"></a></h3>
+      <p></p>
+    </div>
+  </li>
+
+-->
+<!--
+  <article id="{{URL}}" class="hentry">
+    <aside>
+      <a href="/{{URL}}/" rel="bookmark">
+        <img src="img/thumbs/" alt="Thumbnail for {{TITLE}}" />
+      </a>
+      <p class="octo-p"><a href="" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/{{URL}}/" rel="bookmark">{{TITLE}}</a></h3>
+      <div class="entry-content">
+        <p></p>
+      </div>
+      <footer>
+        <time datetime="{{YYYY-MM-DD}}" title="{{YYYY-MM-DD}}" class="published value-title" pubdate>{{YYYY-MM-DD}}</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+-->
+
+
+
+  <article id="game-of-life" class="hentry">
+    <aside>
+      <a href="/game-of-life/" rel="bookmark">
+        <img src="img/thumbs/game-of-life-glider.png" alt="Thumbnail for Conway&#8217;s Game of Life" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/conway-game-of-life" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/game-of-life/" rel="bookmark">Conway&#8217;s Game of Life</a></h3>
+      <div class="entry-content">
+        <p>&#8220;Conway&#8217;s Game of Life&#8221; is a mathematical game created by John Conway, in an attempt to simplify a mathematical model for a hypothetical machine that could build copies of itself. This game opened up a whole new field of mathematical research, the field of <a href='http://en.wikipedia.org/wiki/Cellular_automata' rel='external'>cellular automata</a></p>
+        <p>I have always loved this game and thought that it was time to take a shot at recreating it, and that is what I did. Also, no java applet or any nonsense that I always see prompted when you want to play this game online. Profit!</p>
+      </div>
+      <footer>
+        <time datetime="2013-02-07" title="2013-02-07" class="published value-title" pubdate>2013-02-07</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="bouncing-rainbow" class="hentry">
+    <aside>
+      <a href="/bouncing-rainbow/" rel="bookmark">
+        <img src="img/thumbs/bouncing-rainbow.png" alt="Thumbnail for Bouncing Rainbow" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/bouncing-rainbow" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/bouncing-rainbow/" rel="bookmark">Bouncing Rainbow</a></h3>
+      <div class="entry-content">
+        <p>My first experiment with <a href='http://www.processing.org/' rel='external'>Processing</a>! Really simple code with enjoyable results.</p>
+        <p>Music with HTML5 Audio element and some javascript for the simple controller (play/pause), original song by <a href='http://www.8bitpeoples.com/discography/by/jellica' rel='external'>Jellica</a></p>
+        <p>Processing is a really fun and easy to learn language, <a href='http://www.processing.org/learning/gettingstarted/' rel='external'>why don&#8217;t you try it out?</a> Cheers!</p>
+      </div>
+      <footer>
+        <time datetime="2012-10-08" title="2012-10-08" class="published value-title" pubdate>2012-10-08</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="h" class="hentry">
+    <aside>
+      <a href="/h/" rel="bookmark">
+        <img src="img/thumbs/dhompage.png" alt="Thumbnail for DHompage" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/DHomepage/" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/h/" rel="bookmark">DHompage</a></h3>
+      <div class="entry-content">
+        <p>DHompage is my personal homepage, and it can be yours too! It basically provides search fields for the most common internet searches and links for your most visited pages.</p>
+        <p>Some interesting features include:</p>
+        <ul>
+          <li>&#8220;get&#8221; button to aquire clean links to share results</li>
+          <li>Total responsiveness; can be used on smartphones, tablets, etc</li>
+          <li>Low brightness theme to avoid eye wear if tab is to be left open</li>
+          <li>Avoid <a href='http://dontbubble.us/' rel='external'>Bubbling</a> on Google, by default &#8220;personal results&#8221; are not shown</li>
+          <li>You are a grownup, by default &#8220;safe search&#8221; is always off</li>
+          <li>Avoid search trail tracking and country results scoping thanks to full URL formation on the fly</li>
+          <li>Get Google Image results that show image sizes, useful for Album Cover searches</li>
+          <li>Search for information about an image, feed its url to &#8220;Google search by Image URL&#8221;</li>
+          <li>Customize it! Want to link to other places? Want to use other SE? <a href='https://github.com/DrummerHead/DHomepage/' rel='external'>Fork it and change it</a>, it&#8217;s Open Source!</li>
+        </ul>
+        <p>Want new features or found bugs? <a href='https://github.com/DrummerHead/DHomepage/issues'>Let me know</a></p>
+      </div>
+      <footer>
+        <time datetime="2012-06-13" title="2012-06-13" class="published value-DHompage" pubdate>2012-06-13</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn h" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="pangram-ipsum" class="hentry">
+    <aside>
+      <a href="/pangram-ipsum/" rel="bookmark">
+        <img src="img/thumbs/pangram-ipsum.png" alt="Thumbnail for pangram Ipsum" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/pangram-Ipsum" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-pangram Ipsum"><a href="/pangram-ipsum/" rel="bookmark">Pangram Ipsum</a></h3>
+      <div class="entry-content">
+        <p>Another useful little tool, <a href='http://en.wikipedia.org/wiki/Filler_text' rel='external'>filler text</a> using <a href='http://en.wikipedia.org/wiki/Pangram' rel='external'>pangrams</a>. In general Lorem Ipsum is used as filler text, but why not Zoidberg? I mean&#8230; why not pangrams? They were created because they use each of the letters of the alphabet once, and that&#8217;s useful for testing typography. But it also generates a more homogenous visual texture.</p>
+        <p>In most situations using filler text is bad, because you should know what your content is going to be before visually designing something. But sometimes you&#8217;re creating content architecture, and even thou you know the objectives of each area and the kinds of contents, you haven&#8217;t generated the content yet. I think that in these cases it&#8217;s alright to use filler text :)</p>
+        <p>Inside you&#8217;ll find the code ready to be put on source, with paragraphs increasing in word count so you can choose the size that best suits your needs.</p>
+        <p>Oh! And if you&#8217;re wondering what&#8217;s the deal with the &#38;#8217; things, check this <a href='http://mcdlr.com/8/'>handy utf-8 character reference</a></p>
+      </div>
+      <footer>
+        <time datetime="2012-05-13" pangram Ipsum="2012-05-13" class="published value-pangram Ipsum" pubdate>2012-05-13</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn pangram-ipsum" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="responsive-web-design-presentation" class="hentry">
+    <aside>
+      <a href="/responsive-web-design-presentation/" rel="bookmark">
+        <img src="img/thumbs/responsive-web-design-presentation.jpg" alt="Thumbnail for Responsive Web Design presentation" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/responsive-web-design-presentation/" rel="bookmark">Responsive Web Design presentation</a></h3>
+      <div class="entry-content">
+        <p>This is the video and slides to my talk at <a href='http://wrocloverb.com/' rel='external'>wroc_love.rb</a>.</p>
+        <p>Responsive Web Design is all about having the same content visible in all devices, from tiny mobiles to huge monitors, preserving proper readability and adapting to the medium. In this talk I will present the concept of responsiveness and teach with examples how to make a layout responsive with the one-two punch of fluid layouts and media queries.</p>
+      </div>
+      <footer>
+        <time datetime="2012-03-11" title="2012-03-11" class="published value-title" pubdate>2012-03-11</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+
+  <article id="de-sijl" class="hentry">
+    <aside>
+      <a href="/de-stijl/" rel="bookmark">
+        <img src="img/thumbs/de-stijl.png" alt="Thumbnail for De Stijl" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/de-stijl/" rel="bookmark">De Stijl</a></h3>
+      <div class="entry-content">
+        <p>Piet Mondrian painting, <a href='http://en.wikipedia.org/wiki/De_Stijl' rel='external'>De Stijl art movement</a>; rendered with HTML5 and CSS3, completely fluid and responsive.</p>
+        <p>I&#8217;m only using js to adapt the height and width of the containing element to the viewport, but all the elements that comprise the actual painting are absolutely positioned with percentage values, making their positions relative to their containing element&#8217;s dimensions.</p>
+        <p>With this project and DOMcraft I&#8217;ve found out that Firefox subpixel renderization is uncanny. In the other browsers you&#8217;ll notice gaps that will seldom show on Firefox. Try resizing the window of <a href="/de-stijl">De Stijl</a> on different browsers to see what I mean.</p>
+        <p>Oh! For comparison, you can <a href='/de-stijl/mondrian.jpg'>see the original painting</a>. The colors are not exactly the same, but they are at their most &#8220;pure&#8221; RGB value, which follows De Stijl&#8217;s proposition of abstraction and simplicity.</p>
+      </div>
+      <footer>
+        <time datetime="2012-01-03" title="2012-01-03" class="published value-title" pubdate>2012-01-03</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="wai-aria-cheatsheet" class="hentry">
+    <aside>
+      <a href="/wai-aria-cheatsheet/" rel="bookmark">
+        <img src="img/thumbs/wai-aria-cheatsheet.jpg" alt="Thumbnail for WAI ARIA Cheatsheet" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/WAI-ARIA-Cheatsheet" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/wai-aria-cheatsheet/" rel="bookmark">WAI ARIA Cheatsheet</a></h3>
+      <div class="entry-content">
+        <p>What started as a simple WAI-ARIA Landmark Roles Cheatsheet turned out to be a full-blown article about the subject.</p>
+        <p>Since I had the different elements of the page done, I figured &#8220;Why not fill them with content, then?&#8221; and that is what I did.</p>
+        <p>Also, it appears that <time datetime="2011-12-07" title="2011-12-07">to date</time> there was no other WAI-ARIA Cheatsheet, so this will prove useful to developers. Hope it does!</p>
+      </div>
+      <footer>
+        <time datetime="2011-12-07" title="2011-12-07" class="published value-title" pubdate>2011-12-07</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="resp" class="hentry">
+    <aside>
+      <a href="/resp/" rel="bookmark">
+        <img src="img/thumbs/resp.png" alt="Thumbnail for Responsive Web Design Experiment" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/Responsive-Web-Design-Experiment" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/resp/" rel="bookmark">Responsive Web Design Experiment</a></h3>
+      <div class="entry-content">
+        <p>This is a little experiment that I did while attending <a href='http://rubyconfuruguay.org/en'>RubyConfUy 2011</a> for a lightning talk about <a href='http://www.alistapart.com/articles/responsive-web-design/'>Responsive Web Design</a>.</p>
+        <p>This experiment explicitly shows the capability of @media for content control over differently sized viewports; try resizing your browser window or accessing this page through your mobile device or tablet device.</p>
+        <p>While it may seem this experiment makes use of Javascript, it does not :)</p>
+        <p>You can check the underlying code at <a href='view-source:http://mcdlr.com/resp/'>/resp/index.html</a> and <a href='view-source:http://mcdlr.com/resp/stijl.css'>/resp/stijl.css</a></p>
+      </div>
+      <footer>
+        <time datetime="2011-11-17" title="2011-11-17" class="published value-title" pubdate>2011-11-17</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="utf-8" class="hentry">
+    <aside>
+      <a href="/utf-8/" rel="bookmark">
+        <img src="img/thumbs/utf-8.png" alt="Thumbnail for UTF-8 Character list" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/UTF-8-Character-list" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/utf-8/" rel="bookmark">UTF-8 Character list</a></h3>
+      <div class="entry-content">
+        <p>All the strange characters contained in UTF-8 is amazing</p>
+        <p>In this page you can check them all up. You can find really bizarre stuff, enjoy!</p>
+      </div>
+      <footer>
+        <time datetime="2011-10-12" title="2011-10-12" class="published value-title" pubdate>2011-10-12</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="common-html-entities" class="hentry">
+    <aside>
+      <a href="/8/" rel="bookmark">
+        <img src="img/thumbs/common-html-entities.png" alt="Thumbnail for Common HTML Entities" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/HTML-Entities" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title tad-smaller"><a href="/8/" rel="bookmark">Common HTML Entities</a></h3>
+      <div class="entry-content">
+        <p>Just a list of commonly used HTML entities with the proper code in decimal entity notation.</p>
+        <p>I uploaded this a long time ago but did not consider it worthy enough for it to be shown here. But you know what? I use it all the time!</p>
+        <p>If it's so useful for me, it's probably gonna be useful for more people, I guess :)</p>
+      </div>
+      <footer>
+        <time datetime="2011-10-10" title="2011-10-10" class="published value-title" pubdate>2011-10-10</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="msfw" class="hentry">
+    <aside>
+      <a href="/msfw/" rel="bookmark">
+        <img src="img/thumbs/msfw.jpg" alt="Thumbnail for Make Safe For Work" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/Make-Safe-For-Work" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/msfw/" rel="bookmark">Make Safe For Work</a></h3>
+      <div class="entry-content">
+        <p>Have you ever wanted to share a <abbr title="Not Safe For Work">NSFW</abbr> with a coworker, but in a more stealthy way? This is the tool for you. Just paste the image URL and you'll get a link you can use to share the image in a stealthy way. Just try it!</p>
+      </div>
+      <footer>
+        <time datetime="2011-09-05" title="2011-09-05" class="published value-title" pubdate>2011-09-05</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="js-inject" class="hentry">
+    <aside>
+      <a href="/js-inject/" rel="bookmark">
+        <img src="img/thumbs/js-inject.jpg" alt="Thumbnail for JS Inject" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/JS-Inject" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/js-inject/" rel="bookmark">JS Inject</a></h3>
+      <div class="entry-content">
+        <p>With this tool creating a Bookmarklet is much easier. Just type the code, assign a name and an Anchor element with your code will be created below for you to drag to your bookmarks.</p>
+        <p>You also have the possibility of adding jQuery to the target page so you can write you javascript using jQuery, just a checkbox away!</p>
+      </div>
+      <footer>
+        <time datetime="2011-09-20" title="2011-09-20" class="published value-title" pubdate>2011-09-20</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="css-inject" class="hentry">
+    <aside>
+      <a href="/css-inject/" rel="bookmark">
+        <img src="img/thumbs/css-inject.jpg" alt="Thumbnail for CSS injector" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/CSS-inject" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/css-inject/" rel="bookmark">CSS Inject</a></h3>
+      <div class="entry-content">
+        <p>Ever wanted to change the layout and design of any given page? Perhaps test CSS through many browsers without deploying?</p>
+        <p>With this tool (Wich is an expansion of the one below) you just type your CSS and the bookmarklet is generated for you. Then you use that bookmarklet in any given page and the styles will be applied. That easy!</p>
+      </div>
+      <footer>
+        <time datetime="2011-09-20" title="2011-09-20" class="published value-title" pubdate>2011-09-20</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="key-sheet" class="hentry">
+    <aside>
+      <a href="/key-sheet/" rel="bookmark">
+        <img src="img/thumbs/key-sheet.jpg" alt="Thumbnail for HTML Keyboard" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/HTML-Keyboard" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/key-sheet/" rel="bookmark">HTML Keyboard</a></h3>
+      <div class="entry-content">
+        <p>This is a work in progress. The html keyboard is part of bigger stuff, but since the keyboard is already finished I thought I'd just put it out there for somebody else to see or steal :P</p>
+      </div>
+      <footer>
+        <time datetime="2011-09-09" title="2011-09-09" class="published value-title" pubdate>2011-09-09</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="css-reload" class="hentry">
+    <aside>
+      <a href="javascript:(function(){ $(document).ready(function(){ $(&quot;link[rel='stylesheet']&quot;).each(function(){ var href = $(this).attr('href'); var cssNum = /\d/.exec(href); var theOtherStuff = /^[^?]*\?/.exec(href); cssNum++; newHref = theOtherStuff + cssNum; $(this).attr('href',newHref); }); }); })();">
+        <img src="img/thumbs/wwwToBeta.png" alt="css-reload" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title">CSS Reload</h3>
+      <div class="entry-content">
+        <p>This bookmarklet reloads only the CSS on your website. It assumes you are using jQuery and that you use a query to load newer styles (something like &#60;link rel="stylesheet" href="/style.css?3"&#62;), it's ideal for Ruby on Rails apps.</p>
+        <p>If you are only modifiying styles, it's quite faster than to reloading the whole page. Also, sometimes elements on page change via js and a page reload would take you back to another state, in that case this is the most useful case scenario. Actually I had to creat this to be able to adapt an ajax wizard to mobile.</p>
+      </div>
+      <footer>
+        <time datetime="2011-09-20" title="2011-09-20" class="published value-title" pubdate>2011-09-20</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="gal" class="hentry">
+    <aside>
+      <a href="/gal/" rel="bookmark">
+        <img src="img/thumbs/gal.png" alt="Thumbnail for scanatto" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/Scannato" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/gal/" rel="bookmark">Dynamic Gallery</a></h3>
+      <div class="entry-content">
+        <p>&#8220;scannato&#8221; is the name of this dynamic jQuery gallery. It works by generating links to images who's name follow a numeric progression.</p>
+        <p>For instance, if you find an image at &#8220;http://www.somewhere.com/pics/car020.jpg&#8221; you can feed scannato with &#8220;http://www.somewhere.com/pics/car&#8221; for the url field; &#8220;1&#8221; for the starting n&deg; field; &#8220;50&#8221; for the ending n&deg; field; &#8220;3&#8221; for the padding zeroes field and leave &#8220;.jpg&#8221; as the format. Then, by pressing the &#8220;do it&#8221; button, a gallery will be generated with all the images ranging from &#8220;http://www.somewhere.com/pics/car001.jpg&#8221; to &#8220;http://www.somewhere.com/pics/car050.jpg&#8221;</p>
+        <p>if the padding zeroes field is left empty, no padding zeroes will be put and the numbers will progress normally.</p>
+      </div>
+      <footer>
+        <time datetime="2010-08-07" title="2010-08-07" class="published value-title" pubdate>2010-08-07</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="car" class="hentry">
+    <aside>
+      <a href="/car/" rel="bookmark">
+        <img src="img/thumbs/car.png" alt="Thumbnail for Media Queries" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/car/" rel="bookmark">Media Queries</a></h3>
+      <div class="entry-content">
+        <p>Thanks to <a href="http://www.alistapart.com/articles/responsive-web-design/">Media Queries</a> and a <a href="http://www.alistapart.com/articles/fluidgrids/">Fluid Layout</a>, this page looks good from 2560px wide and upwards to as small as 320px wide (an iphone, vertical view).</p>
+        <p>Also, I crafted some jQuery (modified from <a href="#scannato">Scannato</a>) to see the images bigger on hover. It's nice, <a href="temp/borat.jpg">I like!</a></p>
+      </div>
+      <footer>
+        <time datetime="2010-12-20" title="2010-12-20" class="published value-title" pubdate>2010-12-20</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="www-to-beta" class="hentry">
+    <aside>
+      <a href="javascript:(function(){var h = window.location.href;if(/^https?:\/\/www2?/.test(h)){var n = h.replace(/^http(s)?:\/\/www2?/g,'http$1://beta');window.location.href=n;} else if(/^https?:\/\/beta/.test(h)){var n = h.replace(/^http(s)?:\/\/beta/g,'http$1://www');window.location.href=n;} else {alert('This site is neither beta nor www, I am of no use here.')}})()">
+        <img src="img/thumbs/wwwToBeta.png" alt="www|beta" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title">www to beta</h3>
+      <div class="entry-content">
+        <p>This little bookmarklet will make you jump straight from www environment to beta environment and back again. It is a simple solution that saves you the hassle to manually type on the address bar.</p>
+        <p>Just drag the image on the left to your bookmarks bar and it is ready to be used!</p>
+      </div>
+      <footer>
+        <time datetime="2010-10-26" title="2010-10-26" class="published value-title" pubdate>2010-10-26</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="make-links" class="hentry">
+    <aside>
+      <a href="/make-links/" rel="bookmark">
+        <img src="img/thumbs/make-links.png" alt="Thumbnail for Text into links" />
+      </a>
+      <p class="octo-p"><a href="https://github.com/DrummerHead/Text-into-links" rel="external">Fork it on <span>Github</span></a></p>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/make-links/" rel="bookmark">Text into links</a></h3>
+      <div class="entry-content">
+        <p>Imagine you have been given a text with a series of links to places you need to go.</p>
+        <p>Perhaps you would normally copy and paste these links into your preferred browser and go.</p>
+        <p>With this page you can skip copy and pasting several links and just make whatever text that is a link into an actual clickable link</p>
+        <p>This may sound link something pretty mundane, but is actually something I needed for work, since sometimes I save reference url in text files and need to access those urls later... and I don't like copy pasting things around when a smarter solution  is at hand :)</p>
+      </div>
+      <footer>
+        <time datetime="2010-08-07" title="2010-08-07" class="published value-title" pubdate>2010-08-07</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="tv-color-bars" class="hentry">
+    <aside>
+      <a href="/tv-color-bars/" rel="bookmark">
+        <img src="img/thumbs/tv-color-bars.png" alt="Thumbnail for Visual Cryptography test" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/tv-color-bars/" rel="bookmark">TV Color Bars</a></h3>
+      <div class="entry-content">
+        <p>XHTML Fluid layout rendering the common <a href="http://en.wikipedia.org/wiki/SMPTE_color_bars">SMPTE color bars</a></p>
+        <p>Colud be a nice (but quite unfriendly) <a href="http://www.useit.com/alertbox/404_improvement.html">404 page</a></p>
+      </div>
+      <footer>
+        <time datetime="2010-08-01" title="2010-08-01" class="published value-title" pubdate>2010-08-01</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="visual-crypto" class="hentry">
+    <aside>
+      <a href="/visual-crypto/" rel="bookmark">
+        <img src="img/thumbs/visual-crypto.jpg" alt="Thumbnail for Visual Cryptography test" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/visual-crypto/" rel="bookmark">Visual Cryptography</a></h3>
+      <div class="entry-content">
+        <p>Just a quick test on <a href="http://en.wikipedia.org/wiki/Visual_cryptography">Visual Cryptography</a>. Slowly resize the browser window until the secret image appears.</p>
+        <p>You have now gained +10 in espionage.</p>
+      </div>
+      <footer>
+        <time datetime="2011-07-03" title="2011-07-03" class="published value-title" pubdate>2011-07-03</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="hex-color-word" class="hentry">
+    <aside>
+      <a href="/hex-color-word/" rel="bookmark">
+        <img src="img/thumbs/hex-color-word.png" alt="Thumbnail for Hex colors and words" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/hex-color-word/" rel="bookmark">Hex colors and words</a></h3>
+      <div class="entry-content">
+        <p>this page contains <a href="http://en.wikipedia.org/wiki/Web_colors#Hex_triplet">hex color codes</a> that are also words or that are contained in a word.</p>
+        <p>Hope this proves useful to somebody. I think it can be useful for domain name brokers or for a new company name with color brand associations.</p>
+      </div>
+      <footer>
+        <time datetime="2010-01-23" title="2010-01-23" class="published value-title" pubdate>2010-01-23</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="bsod" class="hentry">
+    <aside>
+      <a href="/bsod/" rel="bookmark">
+        <img src="img/thumbs/bsod.png" alt="Thumbnail for Blue screen of death" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/bsod/" rel="bookmark">Blue screen of death</a></h3>
+      <div class="entry-content">
+        <p>A code rendition to the classic windows blue screen of death (<a href="http://en.wikipedia.org/wiki/Blue_Screen_of_Death">BSOD</a>)</p>
+        <p>This started as an investigation on system, pixelar fonts, and the realization that being able to do a &#8220;pixel perfect&#8221; version of BSOD was possible</p>
+      </div>
+      <footer>
+        <time datetime="2010-05-30" title="2010-05-30" class="published value-title" pubdate>2010-05-30</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="canvas-dh-logo" class="hentry">
+    <aside>
+      <a href="/canvas-dh-logo/" rel="bookmark">
+        <img src="img/thumbs/drummerhead-logo-canvas.png" alt="Thumbnail for Canvas" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/canvas-dh-logo/" rel="bookmark">Canvas</a></h3>
+      <div class="entry-content">
+        <p>A really simple experiment with the new <a href="https://developer.mozilla.org/en/canvas_tutorial">canvas element</a>.</p>
+        <p>As my logo is quite orthogonal, it was a good exercise to make it using the ctx.fillRect() function</p>
+      </div>
+      <footer>
+        <time datetime="2010-05-30" title="2010-05-30" class="published value-title" pubdate>2010-05-30</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+  <article id="unpxrq" class="hentry">
+    <aside>
+      <a href="/unpxrq/" rel="bookmark">
+        <img src="img/thumbs/unPXrq.png" alt="Thumbnail for text-shadow" />
+      </a>
+    </aside>
+    <div>
+      <h3 class="entry-title"><a href="/unpxrq/" rel="bookmark">text-shadow</a></h3>
+      <div class="entry-content">
+        <p>Just a simple experiment page featuring some nice <a href="http://reference.sitepoint.com/css/text-shadow">text shadow</a> that goes along with the style of the background tron-like dimensional box lines</p>
+        <p>The page also centers on X and Y axes; even with a backward-compatible solution for IE6. The nick &#8220;unPXrq&#8221; is fictional, just &#8220;hacked&#8221; on ROT13. This is not used for defacement, it is just an exercise. White hat FTW.</p>
+      </div>
+      <footer>
+        <time datetime="2010-05-30" title="2010-05-30" class="published value-title" pubdate>2010-05-30</time>
+        <address class="vcard author">
+          <a href="http://drummerhead.me/" class="fn url" rel="author external">DrummerHead</a>
+        </address>
+      </footer>
+    </div>
+  </article>
+
+</div>
+</section>
+
+
+<footer role="contentinfo">
+  <div id="footer">
+    Done with a lotta love &#9829;
+    <span class="goRight">&#169;2010 - mcdlr by <a href="http://nicolas-barrera.com/" title="Nicolas Barrera">DrummerHead</a> &#183; <a href="http://microformatique.com/optimus/?uri=http://mcdlr.com/&format=rss" rel="alternate" title="Subscribe to mcdlr">RSS</a></span>
+    <a href="http://twitter.com/DrummerHead" class="twitLink" title="DrummerHead's Twitter">DrummerHead Twitter account</a>
+  </div>
+</footer>
+
+
+
+
+
+
+
+</div><!-- /wrapper -->
+
+<!-- Google analytics -->
+<script>
+var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-1030009-5']); _gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- /Google analytics -->
+
+</body>
+</html>

@@ -1,0 +1,375 @@
+/*
+ ____                                           _   _                _
+|  _ \ _ __ _   _ _ __ ___  _ __ ___   ___ _ __| | | | ___  __ _  __| |
+| | | | '__| | | | '_ ` _ \| '_ ` _ \ / _ \ '__| |_| |/ _ \/ _` |/ _` |
+| |_| | |  | |_| | | | | | | | | | | |  __/ |  |  _  |  __/ (_| | (_| |
+|____/|_|   \__,_|_| |_| |_|_| |_| |_|\___|_|  |_| |_|\___|\__,_|\__,_|
+            Made all this stuff, done with a lotta love :D
+*/
+
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent}body{line-height: 1}ol,ul{list-style: none}blockquote,q{quotes: none}blockquote: before,blockquote: after,q: before,q: after{content: '';content: none}: focus{outline: 0}ins{text-decoration: none}del{text-decoration: line-through}table{border-collapse: collapse;border-spacing: 0}
+/* /reset */
+
+body {
+  background-image: url(../img/bodyBg.png);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-color: #117c83;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+a {
+  color: #fff;
+  -webkit-transition: 0.25s linear all;
+     -moz-transition: 0.25s linear all;
+      -ms-transition: 0.25s linear all;
+       -o-transition: 0.25s linear all;
+          transition: 0.25s linear all;
+}
+a:hover {
+  text-decoration: none;
+  background-color: #e9feff;
+  color: #095B62;
+}
+.vessel {
+}
+#wrapper {
+  margin: 0 auto;
+}
+[role="banner"] {
+  position: relative;
+  height: 107px;
+  width: 960px;
+  margin: 0 auto;
+}
+[role="navigation"] ol {
+  position: absolute;
+  top: 43px;
+  left: 121px;
+}
+[role="navigation"] ol li {
+  float: left;
+  display: inline;
+  height: 64px;
+}
+[role="navigation"] ol li a {
+  background-image: url(../img/menu.png);
+  display: block;
+  height: 64px;
+  text-indent: -9874px;
+}
+#el-que {
+}
+#como {
+}
+#para-que {
+}
+#quien {
+}
+#el-que a {
+  width: 110px;
+  background-position: 0 -64px;
+}
+#como a {
+  width: 108px;
+  background-position: -110px -64px;
+}
+#para-que a {
+  width: 142px;
+  background-position: -218px -64px;
+}
+#quien a {
+  width: 110px;
+  background-position: -360px -64px;
+}
+#el-que a:hover {
+  background-position: 0 0;
+}
+#como a:hover {
+  background-position: -110px 0;
+}
+#para-que a:hover {
+  background-position: -218px 0;
+}
+#quien a:hover {
+  background-position: -360px 0;
+}
+[role="navigation"] ul li:hover {
+}
+[role="banner"] strong {
+  position: absolute;
+  top: 31px;
+  left: 738px;
+}
+[role="banner"] strong a {
+  background-image: url(../img/miniLogo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  height: 52px;
+  width: 146px;
+  text-indent: -9874px;
+}
+[role="banner"] strong a:hover {
+  background-position: 0 -52px;
+}
+#wroc {
+  width: 182px;
+  height: 182px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  background-image: url('../img/wroc_love.png');
+  overflow: hidden;
+  text-indent: -777em;
+  border-radius: 97px;
+  border: 6px solid #0e7279;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+#wroc:hover {
+  background-color: #94cbbd;
+  border-color: #94cbbd;
+}
+#info {
+  height: 399px;
+  margin: 1px 0 1px 0;
+  position: relative;
+  background-image: url(../img/mainAreaBg.png);
+  background-color: #0c6970;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  overflow: hidden;
+}
+#info ul {
+  width: 500%;
+  float: left;
+  position: absolute;
+  left: 0;
+  -o-transition: left .5s ease-in-out;
+  -moz-transition: left .5s ease-in-out;
+  -webkit-transition: left .5s ease-in-out;
+}
+#info li {
+  width: 20%;
+  height: 399px;
+  float: left;
+}
+#info li div {
+  width: 960px;
+  margin: 0 auto;
+}
+#info h1 {
+  background-image: url(../img/bigLogoAlpha.png);
+  background-repeat: no-repeat;
+  width: 960px;
+  background-color: transparent;
+  background-position: 76px 28px;
+  text-indent: -9874px;
+  margin: 0 auto;
+  height: 399px;
+}
+#info h2 {
+  font-size: 24px;
+  margin: 92px 0 0 130px;
+}
+#info p {
+  margin: 12px 167px 10px 155px;
+}
+[role="main"] {
+  width: 838px;
+  padding: 0 47px;
+  margin: 0 auto;
+  background-image: url(../img/contentWrapBg.png);
+  background-repeat: repeat-y;
+  background-position: 50% 0;
+  overflow: auto;
+}
+[role="main"] .vessel {
+  width: 760px;
+  float: left;
+  padding: 65px 39px 0;
+  background-image: url(../img/contentBg.png);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  overflow: auto;
+}
+.hentry {
+  float: left;
+  width: 758px;
+  clear: both;
+  border-bottom: 1px solid #238990;
+  padding: 0 0 11px 0;
+  margin: 0 0 25px 0;
+}
+.hentry aside {
+  float: left;
+  width: 314px;
+}
+.hentry aside [rel='bookmark'] {
+  float: left;
+  width: 314px;
+}
+.hentry aside [rel='bookmark']:hover {
+  background-color: transparent;
+}
+.hentry img {
+  width: 300px;
+  height: 187px;
+  padding: 14px;
+  background-image: url(../img/thumbFrame.png);
+  float: left;
+  margin: 0 0 0 -14px;
+}
+.octo-p {
+  margin: 0 .85em 0 0;
+}
+.hentry .octo-p {
+  float: right;
+}
+.octo-p a {
+  display: block;
+  height: 25px;
+  line-height: 23px;
+  padding: 7px 64px 7px 7px;
+  position: relative;
+  font-size: 19px;
+  background-image: url(../img/github-logo.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  border: none;
+  color: #b3c6c9;
+}
+.octo-p a:hover {
+  background-color: transparent;
+}
+/*
+.octo-p a:hover:before {
+  content: url('../img/octocat-77.png');
+  position: absolute;
+  top: 7px;
+  left: -77px;
+  opacity: .7;
+}
+*/
+.octo-p span {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hentry > div {
+  float: right;
+  width: 430px;
+}
+h3 {
+  margin: 8px 0 20px;
+  font-size: 40px;
+  line-height: 1.1;
+}
+.tad-smaller {
+  font-size:  36px;
+}
+h3 a {
+  text-decoration: none;
+  border-bottom: 1px dotted #238990;
+}
+p {
+  margin: 4px 0 12px;
+  line-height: 1.3;
+}
+p a {
+  text-decoration: none;
+  border-bottom: 1px dotted #afe4e7;
+}
+.entry-content ul {
+  list-style-type: disc;
+  padding: 0 0 0 1em;
+}
+.entry-content ul li {
+  margin: 0 0 1em 0;
+}
+article footer {
+  margin: 1em 0 0 0;
+  padding: .2em 0 1.2em;
+  border-top: 1px dotted #238990;
+}
+footer time,
+footer address a {
+  color: rgba(255, 255, 255, .2);
+}
+article footer:hover time,
+article footer:hover address a {
+  color: #fff;
+}
+article footer address a:hover {
+  color: #095B62;
+}
+time {
+}
+address {
+  float: right;
+  font-style: normal;
+}
+address a {
+}
+
+
+
+[role="contentinfo"] {
+  background-image: url(../img/footerWrapBg.png);
+  background-repeat: repeat-x;
+  height: 100px;
+}
+#footer {
+  background-image: url(../img/footerBg.png);
+  background-repeat: no-repeat;
+  width: 760px;
+  margin: 0 auto;
+  padding: 71px 87px 20px;
+  color: #9ee3e7;
+  position: relative;
+}
+#footer a {
+  color: #9ee3e7;
+}
+#footer a:hover {
+  color: #095B62;
+}
+#footer span.goRight {
+  float: right;
+}
+.twitLink {
+  width: 54px;
+  height: 46px;
+  position: absolute;
+  text-indent: -9874px;
+  overflow: hidden;
+  background-image: url(../img/twitterLogo.png);
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+.twitLink:hover {
+  background-color: transparent;
+}
+#footer .twitLink {
+  left: 403px;
+  top: 61px;
+}
+[role="banner"] .twitLink {
+  left: 25px;
+  top: 50px;
+}
+
+@media (max-width: 1237px) {
+  #wroc {
+    display: none;
+  }
+}
